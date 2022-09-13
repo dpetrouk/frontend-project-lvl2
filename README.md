@@ -4,16 +4,22 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/7066cc753129c0f62eac/maintainability)](https://codeclimate.com/github/dpetruk/frontend-project-lvl2/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/7066cc753129c0f62eac/test_coverage)](https://codeclimate.com/github/dpetruk/frontend-project-lvl2/test_coverage)
 
-##
+This is the [second project](https://ru.hexlet.io/programs/frontend/projects/46) from Hexlet Frontend Program.
 
-Utility that compares two files and generates their difference.
-Supports `.json`, `.yaml` or `.ini` as input. Files can be deep.
-Outputs in `stylish`, `plain` or `json`. 
+[Demonstration of gendiff on Replit](https://replit.com/@dpetruk/gendiff)
 
+## Difference generator:
 
-[Installing](#installing) -> [Running as CLI-app](#running-as-cli-app) | [Using as library](#using-as-library)
+This utility compares two files and generates their difference. Structures can be deep.
 
-### Examples:
+Supports `.json`, `.yaml` or `.ini` as inputs. 
+
+Can output in:
+- `stylish` - readable united structure that marks changes with `+` and `-` signs (this is default option),
+- `plain` - description of properties that were added, removed or updated,
+- `json` - string with json formatting.
+
+### Examples (asciinema):
 <details>
   <summary>1. compare flat json files</summary>
 
